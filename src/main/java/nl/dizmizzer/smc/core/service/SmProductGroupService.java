@@ -1,5 +1,6 @@
 package nl.dizmizzer.smc.core.service;
 
+import jakarta.transaction.Transactional;
 import nl.dizmizzer.smc.core.entity.SmProduct;
 import nl.dizmizzer.smc.core.entity.SmProductGroup;
 import nl.dizmizzer.smc.core.repository.SmGroupRepository;
@@ -18,43 +19,21 @@ public class SmProductGroupService {
 
     }
 
+    @Transactional
     public void addOrMerge(SmProductGroup group) {
-
-        if (group.getProducts().size() != 1) throw new IllegalArgumentException("There should be only one product");
-
-        List<SmProductGroup> otherGroups = groupRepository.findProductsByGtinList(group.getGtins());
-
-        if (otherGroups.isEmpty()) {
-            this.groupRepository.save(group);
-            return;
-        }
-        SmProductGroup toMergeWith = otherGroups.get(0);
-
-        // Merge GTins to a big list
-        List<Long> gtins = toMergeWith.getGtins();
-        for (Long l : group.getGtins()) {
-            if (!gtins.contains(l)) gtins.add(l);
-        }
-        toMergeWith.setGtins(gtins);
-
-        // Merge Product List
-        SmProduct existingProduct = null;
-        for (SmProduct product : toMergeWith.getProducts()) {
-            if (product.getStore().equals(group.getProducts().get(0).getStore())) {
-                existingProduct = product;
-                break;
-            }
+        if (group.getProducts().size() != 1) {
+            throw new IllegalArgumentException("Exactly one product is required for this operation.");
         }
 
-        if (existingProduct == null) {
-            toMergeWith.getProducts().add(group.getProducts().get(0));
+        List<SmProductGroup> matchingGroups = groupRepository.findProductsByGtinList(group.getGtins());
+        if (matchingGroups.isEmpty()) {
+            groupRepository.save(group);
         } else {
-            existingProduct.setPrice(group.getProducts().get(0).getPrice());
+            SmProductGroup toMergeWith = matchingGroups.get(0);
+            merge(group, toMergeWith);
+            groupRepository.save(toMergeWith);
         }
-
-        this.groupRepository.save(toMergeWith);
     }
-
 
     public List<SmProductGroup> getProducts() {
         List<SmProductGroup> result = new ArrayList<>();
@@ -63,5 +42,57 @@ public class SmProductGroupService {
             result.add(product);
         }
         return result;
+    }
+
+    // Improve querying to not just require 100% name, but actual relevance even if name is misspelled, or
+    // allow split queries like "Lay's Max 215gr"
+    public List<SmProductGroup> getProductsFiltered(String filter) {
+        return this.groupRepository.findAllByNameContainingOrBrandContainingIgnoreCase(filter, filter);
+    }
+
+    private int getBrandScore(String brand) {
+        return switch (brand) {
+            case "AH" -> 5;
+            case "Vomar" -> 3;
+            case "COOP" -> 4;
+            default -> -1;
+        };
+    }
+
+    private int getHighestBrandScore(SmProductGroup group) {
+        return group.getProducts().stream().map(product -> getBrandScore(product.getStore())).max(Integer::compareTo).orElse(-1);
+    }
+
+    private void merge(SmProductGroup newGroup, SmProductGroup existingGroup) {
+        updateExistingProduct(newGroup, existingGroup);
+        if (getHighestBrandScore(newGroup) >= getHighestBrandScore(existingGroup)) {
+            updateGroupProperties(newGroup, existingGroup);
+        }
+        addMissingGtins(newGroup, existingGroup);
+    }
+
+    private void updateExistingProduct(SmProductGroup newGroup, SmProductGroup existingGroup) {
+        for (SmProduct product : existingGroup.getProducts()) {
+            if (product.getStore().equals(newGroup.getProducts().get(0).getStore())) {
+                product.setPrice(newGroup.getProducts().get(0).getPrice());
+                return;
+            }
+        }
+        existingGroup.getProducts().add(newGroup.getProducts().get(0));
+    }
+
+    private void updateGroupProperties(SmProductGroup newGroup, SmProductGroup existingGroup) {
+        existingGroup.setName(newGroup.getName());
+        existingGroup.setBrand(newGroup.getBrand());
+        existingGroup.setUnit(newGroup.getUnit());
+        existingGroup.setUnitSize(newGroup.getUnitSize());
+    }
+
+    private void addMissingGtins(SmProductGroup newGroup, SmProductGroup existingGroup) {
+        for (long gtin : newGroup.getGtins()) {
+            if (!existingGroup.getGtins().contains(gtin)) {
+                existingGroup.getGtins().add(gtin);
+            }
+        }
     }
 }

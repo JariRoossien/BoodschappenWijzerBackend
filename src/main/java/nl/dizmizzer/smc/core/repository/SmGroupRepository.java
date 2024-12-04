@@ -15,4 +15,5 @@ public interface SmGroupRepository extends CrudRepository<SmProductGroup, Long> 
             "(SELECT gtin FROM p.gtins gtin WHERE gtin IN :gtins)")
     List<SmProductGroup> findProductsByGtinList(@Param("gtins") List<Long> gtins);
 
+    List<SmProductGroup> findAllByNameContainingOrBrandContainingIgnoreCase(String name, String brand);
 }

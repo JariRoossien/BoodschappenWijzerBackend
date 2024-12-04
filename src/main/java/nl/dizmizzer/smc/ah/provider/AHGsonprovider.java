@@ -10,7 +10,7 @@ public class AHGsonprovider implements Gsonprovider {
 
     private final Gson gson;
 
-    AHGsonprovider() {
+    public AHGsonprovider() {
         this.gson = new GsonBuilder().create();
     }
 

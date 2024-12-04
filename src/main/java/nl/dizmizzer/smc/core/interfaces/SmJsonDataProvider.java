@@ -1,8 +1,8 @@
 package nl.dizmizzer.smc.core.interfaces;
 
-import com.google.gson.JsonElement;
+import com.google.gson.JsonArray;
 
 public interface SmJsonDataProvider {
 
-    JsonElement retrieveJsonData();
+    JsonArray retrieveJsonData();
 }

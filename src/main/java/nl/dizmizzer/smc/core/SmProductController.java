@@ -24,6 +24,8 @@ public class SmProductController {
             return this.groupService.getProducts();
         }
 
-        return new ArrayList<>();
+        return this.groupService.getProductsFiltered(query);
     }
+
+
 }

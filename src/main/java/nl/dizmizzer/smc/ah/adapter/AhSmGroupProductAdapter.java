@@ -1,5 +1,6 @@
 package nl.dizmizzer.smc.ah.adapter;
 
+import nl.dizmizzer.smc.ah.AHUnitInfoConverter;
 import nl.dizmizzer.smc.ah.entity.AHSmProduct;
 import nl.dizmizzer.smc.core.entity.SmProduct;
 import nl.dizmizzer.smc.core.interfaces.SmProductAdapter;
@@ -9,7 +10,7 @@ import org.springframework.stereotype.Component;
 import java.util.List;
 
 @Component
-public class AhSmProductAdapter implements SmProductAdapter<AHSmProduct> {
+public class AhSmGroupProductAdapter implements SmProductAdapter<AHSmProduct> {
 
     @Override
     public SmProductGroup adapt(AHSmProduct product) {
@@ -20,8 +21,8 @@ public class AhSmProductAdapter implements SmProductAdapter<AHSmProduct> {
                 .name(product.getTitle().replace(product.getBrand(), "").trim())
                 .brand(product.getBrand())
                 .gtins(new java.util.ArrayList<>(product.getGtins()))
-                .unit(product.getPrice().getUnitSize())
-//                .unitSize(5) // TODO: Read proper Unit size
+                .unit(AHUnitInfoConverter.getUnitType(product))
+                .unitSize(Math.round(AHUnitInfoConverter.getUnitSize(product) * 1000) / 1000.0)
                 .products(List.of(smProduct))
                 .build();
     }
