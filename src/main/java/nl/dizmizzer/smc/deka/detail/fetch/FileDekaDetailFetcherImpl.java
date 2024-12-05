@@ -1,15 +1,14 @@
-package nl.dizmizzer.smc.deka.fetch;
+package nl.dizmizzer.smc.deka.detail.fetch;
 
 import com.google.gson.Gson;
 import nl.dizmizzer.smc.ah.provider.AHGsonprovider;
-import nl.dizmizzer.smc.deka.DekaDetailProduct;
-import org.springframework.core.annotation.Order;
+import org.springframework.stereotype.Component;
 
 import java.io.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-@Order(value = 0)
+@Component
 public class FileDekaDetailFetcherImpl implements DekaDetailFetcher {
 
     private final static String BASE_FOLDER = "testdata/deka/detail";

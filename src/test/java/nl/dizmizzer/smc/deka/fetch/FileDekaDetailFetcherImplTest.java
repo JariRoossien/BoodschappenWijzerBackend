@@ -1,7 +1,8 @@
 package nl.dizmizzer.smc.deka.fetch;
 
 import nl.dizmizzer.smc.ah.provider.AHGsonprovider;
-import nl.dizmizzer.smc.deka.DekaDetailProduct;
+import nl.dizmizzer.smc.deka.detail.fetch.DekaDetailProduct;
+import nl.dizmizzer.smc.deka.detail.fetch.FileDekaDetailFetcherImpl;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

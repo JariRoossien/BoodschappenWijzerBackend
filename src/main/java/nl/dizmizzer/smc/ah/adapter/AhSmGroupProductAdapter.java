@@ -13,6 +13,11 @@ import java.util.List;
 public class AhSmGroupProductAdapter implements SmProductAdapter<AHSmProduct> {
 
     @Override
+    public Class<AHSmProduct> getDomainType() {
+        return AHSmProduct.class;
+    }
+
+    @Override
     public SmProductGroup adapt(AHSmProduct product) {
         SmProduct smProduct = new SmProduct("AH", product.getPrice().getNow());
 

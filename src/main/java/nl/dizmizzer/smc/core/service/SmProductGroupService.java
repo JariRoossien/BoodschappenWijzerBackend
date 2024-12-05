@@ -21,6 +21,7 @@ public class SmProductGroupService {
 
     @Transactional
     public void addOrMerge(SmProductGroup group) {
+        if (group == null) return;
         if (group.getProducts().size() != 1) {
             throw new IllegalArgumentException("Exactly one product is required for this operation.");
         }

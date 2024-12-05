@@ -1,0 +1,307 @@
+{
+    "ProductID": 102819,
+    "CreatedAt": "2024-01-09T04:16:08.467",
+    "ModifiedAt": "2024-08-22T18:00:13.603",
+    "Number": "460804",
+    "MainDescription": "Dipsaus",
+    "SubDescription": "fiesta",
+    "ExtraDescription": null,
+    "CommercialContent": "6 g",
+    "CommodityLawName": "Mix voor dipsaus, kruidige pepersmaak.",
+    "MinimumAge": 1,
+    "AlcoholPercentage": null,
+    "Durability": 0,
+    "ScaleIndicator": false,
+    "WeightArticle": false,
+    "DepositMoney": null,
+    "TaxID": 1,
+    "OwnBrand": false,
+    "TemporaryNotAvailable": false,
+    "ProductOnline": true,
+    "ContentCE": 6.0,
+    "CodeContentCE": 180,
+    "UnitContentCE": "GR",
+    "PiecesInWeight": null,
+    "WeightOfPeicesInWeight": null,
+    "Biological": false,
+    "MinTemperature": null,
+    "MaxTemperature": null,
+    "FromPersons": null,
+    "ToPersons": null,
+    "Brand": "Lay's",
+    "MaxPerCustomer": null,
+    "Location": null,
+    "PublicationAfter": null,
+    "ProductOffers": [],
+    "ProductDeclarations": [
+        {
+            "ContactInformation": {
+                "ContactGegevens": {
+                    "ContactNaam": "PepsiCo Nederland BV",
+                    "ContactAdres": "Stadsplateau 22-23, 3521 AZ Utrecht, the Netherlands",
+                    "ContactKanalen": {
+                        "ContactKanaal": {
+                            "Communicatie-kanaal-gegevens": "0800-7377426",
+                            "Communicatie-kanaal": "TELEPHONE"
+                        }
+                    }
+                }
+            },
+            "NutritionInformation": {
+                "Voedingswaarden": {
+                    "Algemeen": {
+                        "Standaardeenheid": "100 GRM",
+                        "Percentage-referentie-inname-standaard": "Referentie-inname van een gemiddelde volwassene (8400kJ / 2000kcal)"
+                    }
+                }
+            },
+            "StorageConditions": {
+                "Bewaaradviezen": {
+                    "Bewaaradvies": "Koel en droog bewaren."
+                }
+            },
+            "PreparationInstructions": {
+                "Bereidingsinstructies": {
+                    "Bereidingsinstructie": "Nutriscore A: Meng de inhoud van dit zakje met 2 1/2 eetlepel kwark en 1 eetlepel water. Nutriscore D: Meng de inhoud van dit zakje met 2 1/2 eetlepel mayonaise en 1 eetlepel water."
+                }
+            },
+            "ServingSugestions": {
+                "Serveersuggesties": {
+                    "Serveersuggestie": "Lekker bij: Chips, rauwkost, vis, vlees en vleesvervangers."
+                }
+            },
+            "ExplicitNotations": null,
+            "Claims": {
+                "Claims": {
+                    "Claim-marketing": "Kwaliteitsgarantie van Lay's"
+                }
+            },
+            "LandOfOrigin": null,
+            "UsageAdvice": null,
+            "ProductAllergens": [
+                {
+                    "AllergenDescription": "Melk(eiwit)",
+                    "AllergenText": "Kan sporen bevatten van"
+                },
+                {
+                    "AllergenDescription": "Gluten",
+                    "AllergenText": "Kan sporen bevatten van"
+                },
+                {
+                    "AllergenDescription": "Selderij",
+                    "AllergenText": "Kan sporen bevatten van"
+                },
+                {
+                    "AllergenDescription": "Mosterd",
+                    "AllergenText": "Bevat"
+                },
+                {
+                    "AllergenDescription": "Tarwe",
+                    "AllergenText": "Kan sporen bevatten van"
+                },
+                {
+                    "AllergenDescription": "Soja",
+                    "AllergenText": "Kan sporen bevatten van"
+                },
+                {
+                    "AllergenDescription": "Ei",
+                    "AllergenText": "Kan sporen bevatten van"
+                }
+            ],
+            "ProductIngredients": [
+                {
+                    "Text": "Ingredi\u00ebnten: specerijen [zwarte peper (28%), MOSTERDZAAD (7,7%), paprikapoeder (4,5%), cayennepeper], dextrose, uienpoeder, zout, knoflookpoeder, rode bietenpoeder, natuurlijk peperaroma met andere natuurlijke aroma's, antiklontermiddel (magnesiumzouten van vetzuren, siliciumdioxide), zonnebloemolie. Kan melk, soja, tarwe (gluten), selderij en ei bevatten."
+                }
+            ]
+        }
+    ],
+    "ProductBarcodes": [
+        {
+            "Barcode": "8710398529190"
+        }
+    ],
+    "Tax": {
+        "TaxID": 1,
+        "Description": "9%",
+        "Percentage": 9.0
+    },
+    "BrandInfo": {
+        "BrandID": 144,
+        "Description": "Lay's"
+    },
+    "ProductPictures": [
+        {
+            "Url": "https://d3r3h30p75xj6a.cloudfront.net/artikelen/184607_1_460804_638452344807409519.png",
+            "IsPrimary": true
+        }
+    ],
+    "ProductPrices": [
+        {
+            "PriceID": 984657705,
+            "StoreID": 283,
+            "ProductID": 102819,
+            "Price": 0.59,
+            "RegularPrice": 0.59,
+            "PricePerKilo": null,
+            "PricePerDefaultUnit": 9.83,
+            "DefaultUnit": "100 GR",
+            "IsActionPrice": false,
+            "TaxID": 1,
+            "StartDate": "2024-06-10T00:00:00",
+            "EndDate": "2049-12-31T23:59:59",
+            "PriceLineCode": 100
+        }
+    ],
+    "Logos": [],
+    "WebSubGroups": [
+        {
+            "WebSubGroupID": 297,
+            "Position": 7,
+            "Description": "Mixen voor saus",
+            "WebGroup": {
+                "WebGroupID": 55,
+                "Position": 5,
+                "Description": "Oli\u00ebn, sauzen & mixen",
+                "WebDepartment": {
+                    "WebDepartmentID": 6,
+                    "Position": 6,
+                    "Description": "Voorraadkast"
+                }
+            }
+        }
+    ],
+    "Nutrition": [
+        {
+            "MainValue": {
+                "NutritionID": 1,
+                "Description": "kJ",
+                "Text": "Energie Kilojoules (kJ)",
+                "ReferenceIntake": null,
+                "ValueAsSold": "1334",
+                "ValueAsPortion": null,
+                "ValueWhenPrepared": null
+            },
+            "SubValues": []
+        },
+        {
+            "MainValue": {
+                "NutritionID": 2,
+                "Description": "kcal",
+                "Text": "Energie Kilocalorie\u00ebn (kcal)",
+                "ReferenceIntake": null,
+                "ValueAsSold": "319",
+                "ValueAsPortion": null,
+                "ValueWhenPrepared": null
+            },
+            "SubValues": []
+        },
+        {
+            "MainValue": {
+                "NutritionID": 3,
+                "Description": "Vet",
+                "Text": "Vetten (g)",
+                "ReferenceIntake": null,
+                "ValueAsSold": "5.1",
+                "ValueAsPortion": null,
+                "ValueWhenPrepared": null
+            },
+            "SubValues": [
+                {
+                    "NutritionID": 4,
+                    "Description": "V.Vet",
+                    "Text": "verzadigde vetzuren (g)",
+                    "ReferenceIntake": null,
+                    "ValueAsSold": "1.0",
+                    "ValueAsPortion": null,
+                    "ValueWhenPrepared": null
+                }
+            ]
+        },
+        {
+            "MainValue": {
+                "NutritionID": 18,
+                "Description": "Kh",
+                "Text": "Koolhydraten (g)",
+                "ReferenceIntake": null,
+                "ValueAsSold": "54",
+                "ValueAsPortion": null,
+                "ValueWhenPrepared": null
+            },
+            "SubValues": [
+                {
+                    "NutritionID": 19,
+                    "Description": "S",
+                    "Text": "suikers (g)",
+                    "ReferenceIntake": null,
+                    "ValueAsSold": "33",
+                    "ValueAsPortion": null,
+                    "ValueWhenPrepared": null
+                },
+                {
+                    "NutritionID": 23,
+                    "Description": "VV",
+                    "Text": "Voedingsvezel (g)",
+                    "ReferenceIntake": null,
+                    "ValueAsSold": "12",
+                    "ValueAsPortion": null,
+                    "ValueWhenPrepared": null
+                }
+            ]
+        },
+        {
+            "MainValue": {
+                "NutritionID": 24,
+                "Description": "Ei",
+                "Text": "Eiwitten (g)",
+                "ReferenceIntake": null,
+                "ValueAsSold": "7.7",
+                "ValueAsPortion": null,
+                "ValueWhenPrepared": null
+            },
+            "SubValues": []
+        },
+        {
+            "MainValue": {
+                "NutritionID": 26,
+                "Description": "TZ25",
+                "Text": "Zout (g)",
+                "ReferenceIntake": null,
+                "ValueAsSold": "8.6",
+                "ValueAsPortion": null,
+                "ValueWhenPrepared": null
+            },
+            "SubValues": []
+        },
+        {
+            "MainValue": {
+                "NutritionID": 83,
+                "Description": "Ei",
+                "Text": "- dierlijke eiwitten (g)",
+                "ReferenceIntake": null,
+                "ValueAsSold": "7.7",
+                "ValueAsPortion": null,
+                "ValueWhenPrepared": null
+            },
+            "SubValues": []
+        },
+        {
+            "MainValue": {
+                "NutritionID": 84,
+                "Description": "Ei",
+                "Text": "- plantaardige eiwitten (g)",
+                "ReferenceIntake": null,
+                "ValueAsSold": "7.7",
+                "ValueAsPortion": null,
+                "ValueWhenPrepared": null
+            },
+            "SubValues": []
+        }
+    ],
+    "SubGroup": {
+        "SubGroupID": 276,
+        "ExcludeFromPaas": false,
+        "Description": "DIPSAUZEN/MIXEN",
+        "Hoofdgroepen": null
+    },
+    "IsSingleUsePlastic": false
+}

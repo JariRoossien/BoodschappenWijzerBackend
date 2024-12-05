@@ -27,6 +27,11 @@ public class CoopJsonDataProvider implements SmJsonDataProvider {
     }
 
     @Override
+    public Class<CoopSmProduct> getDomainType() {
+        return CoopSmProduct.class;
+    }
+
+    @Override
     public JsonArray retrieveJsonData() {
         try {
             // Read the file content as a single string

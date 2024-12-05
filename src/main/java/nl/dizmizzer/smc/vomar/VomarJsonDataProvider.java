@@ -5,6 +5,7 @@ import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import nl.dizmizzer.smc.core.interfaces.SmJsonDataProvider;
+import nl.dizmizzer.smc.vomar.entity.VomarSmProduct;
 import org.springframework.stereotype.Component;
 
 import java.io.IOException;
@@ -18,6 +19,11 @@ public class VomarJsonDataProvider implements SmJsonDataProvider {
 
     private static final Logger LOGGER = Logger.getLogger(VomarJsonDataProvider.class.getName());
     private static final String FILE_PATH = "testdata/vomar_testdata.json";
+
+    @Override
+    public Class<VomarSmProduct> getDomainType() {
+        return VomarSmProduct.class;
+    }
 
     /**
      * Reads a JSON file and parses it into a JsonObject.

@@ -1,7 +1,8 @@
-package nl.dizmizzer.smc.deka;
+package nl.dizmizzer.smc.deka.detail.fetch;
 
 import jakarta.persistence.*;
 import lombok.Data;
+import nl.dizmizzer.smc.deka.DekaBarCode;
 
 import java.util.List;
 

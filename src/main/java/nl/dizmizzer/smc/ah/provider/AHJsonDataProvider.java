@@ -4,6 +4,7 @@ import com.google.gson.Gson;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
+import nl.dizmizzer.smc.ah.entity.AHSmProduct;
 import nl.dizmizzer.smc.core.interfaces.SmJsonDataProvider;
 import org.springframework.stereotype.Component;
 
@@ -24,6 +25,11 @@ public class AHJsonDataProvider implements SmJsonDataProvider {
 
     public AHJsonDataProvider(AHGsonprovider gsonprovider) {
         gson = gsonprovider.getGson();
+    }
+
+    @Override
+    public Class<AHSmProduct> getDomainType() {
+        return AHSmProduct.class;
     }
 
     /**

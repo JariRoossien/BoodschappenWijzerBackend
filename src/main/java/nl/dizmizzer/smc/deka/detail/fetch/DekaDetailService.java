@@ -1,6 +1,5 @@
-package nl.dizmizzer.smc.deka;
+package nl.dizmizzer.smc.deka.detail.fetch;
 
-import nl.dizmizzer.smc.deka.fetch.DekaDetailFetcher;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;

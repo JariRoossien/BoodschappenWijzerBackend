@@ -1,13 +1,13 @@
 {
-    "ProductID": 14535,
-    "CreatedAt": "2016-04-14T04:24:09.247",
-    "ModifiedAt": "2024-12-04T12:39:46.36",
-    "Number": "374337",
-    "MainDescription": "Pomtips",
-    "SubDescription": "naturel",
+    "ProductID": 77887,
+    "CreatedAt": "2022-03-23T04:15:23.233",
+    "ModifiedAt": "2024-12-04T12:39:46.65",
+    "Number": "435893",
+    "MainDescription": "Chips",
+    "SubDescription": "goals",
     "ExtraDescription": null,
-    "CommercialContent": "125 g",
-    "CommodityLawName": "Aardappelzoutje met hartige smaak",
+    "CommercialContent": "100 g",
+    "CommodityLawName": "Ma\u00efszoutje met kaassmaak",
     "MinimumAge": 1,
     "AlcoholPercentage": null,
     "Durability": 0,
@@ -18,7 +18,7 @@
     "OwnBrand": false,
     "TemporaryNotAvailable": false,
     "ProductOnline": true,
-    "ContentCE": 125.0,
+    "ContentCE": 100.0,
     "CodeContentCE": 180,
     "UnitContentCE": "GR",
     "PiecesInWeight": null,
@@ -35,9 +35,9 @@
     "ProductOffers": [
         {
             "OfferID": 118636,
-            "ProductID": 14535,
-            "RegularPrice": 2.27,
-            "OfferPrice": 2.27,
+            "ProductID": 77887,
+            "RegularPrice": 1.95,
+            "OfferPrice": 1.95,
             "IsMixMatch": true,
             "MaxPerCustomer": null,
             "Offer": {
@@ -86,7 +86,7 @@
                     "ContactKanalen": {
                         "ContactKanaal": [
                             {
-                                "Communicatie-kanaal-gegevens": "www.lays.nl",
+                                "Communicatie-kanaal-gegevens": "www.cheetos.nl",
                                 "Communicatie-kanaal": "WEB"
                             },
                             {
@@ -102,7 +102,7 @@
                     "Algemeen": {
                         "Standaardeenheid": "Per 100g",
                         "Percentage-referentie-inname-standaard": "Referentie-inname van een gemiddelde volwassene (8400kJ / 2000kcal).",
-                        "Aantal-porties-per-verpakking": "4-5"
+                        "Aantal-porties-per-verpakking": "3-4"
                     }
                 }
             },
@@ -114,28 +114,12 @@
             "PreparationInstructions": null,
             "ServingSugestions": null,
             "ExplicitNotations": null,
-            "Claims": {
-                "Claims": {
-                    "Claim-marketing": "Breng sfeer en gezelligheid door je favoriete Lay's\u00ae snacks met vrienden en familie te delen. Lay's\u00ae snacks, een breed assortiment van heerlijke zoutjes, met verschillende vormpjes, texturen en smaken waar iedereen van kan genieten!"
-                }
-            },
+            "Claims": null,
             "LandOfOrigin": null,
             "UsageAdvice": null,
             "ProductAllergens": [
                 {
-                    "AllergenDescription": "Gerst",
-                    "AllergenText": "Bevat"
-                },
-                {
-                    "AllergenDescription": "Selderij",
-                    "AllergenText": "Bevat"
-                },
-                {
-                    "AllergenDescription": "Gluten",
-                    "AllergenText": "Bevat"
-                },
-                {
-                    "AllergenDescription": "Gluten",
+                    "AllergenDescription": "Lactose",
                     "AllergenText": "Bevat"
                 },
                 {
@@ -145,26 +129,18 @@
                 {
                     "AllergenDescription": "Soja",
                     "AllergenText": "Kan sporen bevatten van"
-                },
-                {
-                    "AllergenDescription": "Zwaveldioxide en sulfieten",
-                    "AllergenText": "Bevat"
-                },
-                {
-                    "AllergenDescription": "Tarwe",
-                    "AllergenText": "Kan sporen bevatten van"
                 }
             ],
             "ProductIngredients": [
                 {
-                    "Text": "aardappelpoeder (bevat SULFIETEN), ma\u00efs, koolzaadolie, hartige smaak [aroma (bevat MELK, GERST, SELDERIJ), smaakversterkers (mononatriumglutamaat, dinatriumguanylaat)], zout"
+                    "Text": "ma\u00efsmeel (73%), koolzaadolie, kaassmaak [LACTOSE (van MELK), weipoeder (van MELK), aroma's (bevat kaaspoeder (MELK)), gerookt zout, kaliumchloride, zout, smaakversterkers (mononatriumglutamaat, dinatriuminosinaat, dinatriumguanylaat), kleurstof (paprika extract)], suiker, zout, groente concentraat (wortel, radijs)"
                 }
             ]
         }
     ],
     "ProductBarcodes": [
         {
-            "Barcode": "8710398502322"
+            "Barcode": "8710398517920"
         }
     ],
     "Tax": {
@@ -178,35 +154,20 @@
     },
     "ProductPictures": [
         {
-            "Url": "https://d3r3h30p75xj6a.cloudfront.net/artikelen/86664_1_374337_638142975232678435.png",
+            "Url": "https://d3r3h30p75xj6a.cloudfront.net/artikelen/110758_1_435893_638157033649609180.png",
             "IsPrimary": true
         }
     ],
     "ProductPrices": [
         {
-            "PriceID": 1072486103,
+            "PriceID": 1072486527,
             "StoreID": 283,
-            "ProductID": 14535,
-            "Price": 2.27,
-            "RegularPrice": 2.27,
+            "ProductID": 77887,
+            "Price": 1.95,
+            "RegularPrice": 1.95,
             "PricePerKilo": null,
-            "PricePerDefaultUnit": 18.16,
-            "DefaultUnit": "1 KG",
-            "IsActionPrice": false,
-            "TaxID": 1,
-            "StartDate": "2024-12-17T00:00:00",
-            "EndDate": "2049-12-31T23:59:59",
-            "PriceLineCode": 100
-        },
-        {
-            "PriceID": 1072486106,
-            "StoreID": 283,
-            "ProductID": 14535,
-            "Price": 2.27,
-            "RegularPrice": 2.27,
-            "PricePerKilo": null,
-            "PricePerDefaultUnit": 18.16,
-            "DefaultUnit": "1 KG",
+            "PricePerDefaultUnit": 1.95,
+            "DefaultUnit": "100 GR",
             "IsActionPrice": true,
             "TaxID": 1,
             "StartDate": "2024-12-10T00:00:00",
@@ -214,27 +175,42 @@
             "PriceLineCode": 101
         },
         {
-            "PriceID": 1072486101,
+            "PriceID": 1072486522,
             "StoreID": 283,
-            "ProductID": 14535,
-            "Price": 2.27,
-            "RegularPrice": 2.27,
+            "ProductID": 77887,
+            "Price": 1.95,
+            "RegularPrice": 1.95,
             "PricePerKilo": null,
-            "PricePerDefaultUnit": 18.16,
-            "DefaultUnit": "1 KG",
+            "PricePerDefaultUnit": 1.95,
+            "DefaultUnit": "100 GR",
             "IsActionPrice": false,
             "TaxID": 1,
-            "StartDate": "2024-11-19T00:00:00",
+            "StartDate": "2024-10-22T00:00:00",
             "EndDate": "2024-12-09T23:59:59",
+            "PriceLineCode": 100
+        },
+        {
+            "PriceID": 1072486524,
+            "StoreID": 283,
+            "ProductID": 77887,
+            "Price": 1.95,
+            "RegularPrice": 1.95,
+            "PricePerKilo": null,
+            "PricePerDefaultUnit": 1.95,
+            "DefaultUnit": "100 GR",
+            "IsActionPrice": false,
+            "TaxID": 1,
+            "StartDate": "2024-12-17T00:00:00",
+            "EndDate": "2049-12-31T23:59:59",
             "PriceLineCode": 100
         }
     ],
     "Logos": [],
     "WebSubGroups": [
         {
-            "WebSubGroupID": 899,
-            "Position": 26,
-            "Description": "Overige chips",
+            "WebSubGroupID": 896,
+            "Position": 20,
+            "Description": "Ham-kaas chips",
             "WebGroup": {
                 "WebGroupID": 150,
                 "Position": 1,
@@ -254,8 +230,8 @@
                 "Description": "kJ",
                 "Text": "Energie Kilojoules (kJ)",
                 "ReferenceIntake": null,
-                "ValueAsSold": "2129",
-                "ValueAsPortion": "639",
+                "ValueAsSold": "2156",
+                "ValueAsPortion": "647",
                 "ValueWhenPrepared": null
             },
             "SubValues": []
@@ -266,8 +242,8 @@
                 "Description": "kcal",
                 "Text": "Energie Kilocalorie\u00ebn (kcal)",
                 "ReferenceIntake": null,
-                "ValueAsSold": "508",
-                "ValueAsPortion": "152",
+                "ValueAsSold": "516",
+                "ValueAsPortion": "155",
                 "ValueWhenPrepared": null
             },
             "SubValues": []
@@ -278,8 +254,8 @@
                 "Description": "Vet",
                 "Text": "Vetten (g)",
                 "ReferenceIntake": null,
-                "ValueAsSold": "25",
-                "ValueAsPortion": "7.5",
+                "ValueAsSold": "28",
+                "ValueAsPortion": "8.3",
                 "ValueWhenPrepared": null
             },
             "SubValues": [
@@ -288,8 +264,8 @@
                     "Description": "V.Vet",
                     "Text": "verzadigde vetzuren (g)",
                     "ReferenceIntake": null,
-                    "ValueAsSold": "2",
-                    "ValueAsPortion": "0.6",
+                    "ValueAsSold": "2.4",
+                    "ValueAsPortion": "0.7",
                     "ValueWhenPrepared": null
                 }
             ]
@@ -300,8 +276,8 @@
                 "Description": "Kh",
                 "Text": "Koolhydraten (g)",
                 "ReferenceIntake": null,
-                "ValueAsSold": "63",
-                "ValueAsPortion": "19",
+                "ValueAsSold": "61",
+                "ValueAsPortion": "18",
                 "ValueWhenPrepared": null
             },
             "SubValues": [
@@ -310,8 +286,8 @@
                     "Description": "S",
                     "Text": "suikers (g)",
                     "ReferenceIntake": null,
-                    "ValueAsSold": "0.9",
-                    "ValueAsPortion": "0.5",
+                    "ValueAsSold": "6.6",
+                    "ValueAsPortion": "2",
                     "ValueWhenPrepared": null
                 },
                 {
@@ -319,8 +295,8 @@
                     "Description": "VV",
                     "Text": "Voedingsvezel (g)",
                     "ReferenceIntake": null,
-                    "ValueAsSold": "2.6",
-                    "ValueAsPortion": "0.8",
+                    "ValueAsSold": "1.1",
+                    "ValueAsPortion": "0.3",
                     "ValueWhenPrepared": null
                 }
             ]
@@ -331,8 +307,8 @@
                 "Description": "Ei",
                 "Text": "Eiwitten (g)",
                 "ReferenceIntake": null,
-                "ValueAsSold": "6.6",
-                "ValueAsPortion": "2",
+                "ValueAsSold": "5.4",
+                "ValueAsPortion": "1.6",
                 "ValueWhenPrepared": null
             },
             "SubValues": []
@@ -343,8 +319,8 @@
                 "Description": "TZ25",
                 "Text": "Zout (g)",
                 "ReferenceIntake": null,
-                "ValueAsSold": "2.3",
-                "ValueAsPortion": "0.7",
+                "ValueAsSold": "1.7",
+                "ValueAsPortion": "0.5",
                 "ValueWhenPrepared": null
             },
             "SubValues": []
@@ -355,8 +331,8 @@
                 "Description": "Ei",
                 "Text": "- dierlijke eiwitten (g)",
                 "ReferenceIntake": null,
-                "ValueAsSold": "6.6",
-                "ValueAsPortion": "2",
+                "ValueAsSold": "5.4",
+                "ValueAsPortion": "1.6",
                 "ValueWhenPrepared": null
             },
             "SubValues": []
@@ -367,17 +343,17 @@
                 "Description": "Ei",
                 "Text": "- plantaardige eiwitten (g)",
                 "ReferenceIntake": null,
-                "ValueAsSold": "6.6",
-                "ValueAsPortion": "2",
+                "ValueAsSold": "5.4",
+                "ValueAsPortion": "1.6",
                 "ValueWhenPrepared": null
             },
             "SubValues": []
         }
     ],
     "SubGroup": {
-        "SubGroupID": 336,
+        "SubGroupID": 328,
         "ExcludeFromPaas": false,
-        "Description": "OVERIGE CHIPS/ZOUTJES",
+        "Description": "KAAS CHIPS",
         "Hoofdgroepen": null
     },
     "IsSingleUsePlastic": false

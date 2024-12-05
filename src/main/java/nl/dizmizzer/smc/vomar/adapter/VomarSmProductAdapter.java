@@ -12,6 +12,11 @@ import java.util.List;
 public class VomarSmProductAdapter implements SmProductAdapter<VomarSmProduct> {
 
     @Override
+    public Class<VomarSmProduct> getDomainType() {
+        return VomarSmProduct.class;
+    }
+
+    @Override
     public SmProductGroup adapt(VomarSmProduct product) {
         SmProduct smProduct = new SmProduct("Vomar", product.getPrice());
 

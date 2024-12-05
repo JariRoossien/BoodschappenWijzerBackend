@@ -1,4 +1,4 @@
-package nl.dizmizzer.smc.deka;
+package nl.dizmizzer.smc.deka.detail.fetch;
 
 import org.springframework.data.repository.CrudRepository;
 

@@ -1,0 +1,280 @@
+{
+    "ProductID": 81210,
+    "CreatedAt": "2022-08-13T04:15:21.873",
+    "ModifiedAt": "2024-11-13T07:08:46.427",
+    "Number": "442161",
+    "MainDescription": "Chips",
+    "SubDescription": "paprika",
+    "ExtraDescription": null,
+    "CommercialContent": "200 g",
+    "CommodityLawName": "Aardappelchips met paprika smaak",
+    "MinimumAge": 1,
+    "AlcoholPercentage": null,
+    "Durability": 0,
+    "ScaleIndicator": false,
+    "WeightArticle": false,
+    "DepositMoney": null,
+    "TaxID": 1,
+    "OwnBrand": false,
+    "TemporaryNotAvailable": false,
+    "ProductOnline": true,
+    "ContentCE": 200.0,
+    "CodeContentCE": 180,
+    "UnitContentCE": "GR",
+    "PiecesInWeight": null,
+    "WeightOfPeicesInWeight": null,
+    "Biological": false,
+    "MinTemperature": null,
+    "MaxTemperature": null,
+    "FromPersons": null,
+    "ToPersons": null,
+    "Brand": "Lay's",
+    "MaxPerCustomer": null,
+    "Location": null,
+    "PublicationAfter": null,
+    "ProductOffers": [],
+    "ProductDeclarations": [
+        {
+            "ContactInformation": {
+                "ContactGegevens": {
+                    "ContactNaam": "PepsiCo Nederland BV",
+                    "ContactAdres": "Stadsplateau 22-23, 3521 AZ Utrecht, the Netherlands",
+                    "ContactKanalen": {
+                        "ContactKanaal": {
+                            "Communicatie-kanaal-gegevens": "0800-7377426",
+                            "Communicatie-kanaal": "TELEPHONE"
+                        }
+                    }
+                }
+            },
+            "NutritionInformation": {
+                "Voedingswaarden": {
+                    "Algemeen": {
+                        "Standaardeenheid": "100 GRM",
+                        "Percentage-referentie-inname-standaard": "Referentie-inname van een gemiddelde volwassene (8400kJ / 2000kcal)"
+                    }
+                }
+            },
+            "StorageConditions": {
+                "Bewaaradviezen": {
+                    "Bewaaradvies": "Koel en droog bewaren."
+                }
+            },
+            "PreparationInstructions": null,
+            "ServingSugestions": null,
+            "ExplicitNotations": {
+                "Verplichte-vermeldingen": {
+                    "Verplichte-vermelding": {
+                        "Verplichte-vermelding-omschrijving": "Vermelding",
+                        "Verplichte-vermelding-tekst": "Verpakt onder beschermende atmosfeer.",
+                        "Verplichte-vermelding-volgnr": "1",
+                        "Verplichte-vermelding-code": "0",
+                        "Verplichte-vermelding-id": "1"
+                    }
+                }
+            },
+            "Claims": {
+                "Claims": {
+                    "Claim-marketing": "De vertrouwde smaak van Lay's\u00ae Paprika chips, tot perfectie gebakken en heerlijk gekruid. Elke chipje zit barstensvol smaak."
+                }
+            },
+            "LandOfOrigin": null,
+            "UsageAdvice": null,
+            "ProductAllergens": [],
+            "ProductIngredients": [
+                {
+                    "Text": "Ingredi\u00ebnten: aardappelen, plantaardige oli\u00ebn (zonnebloem, koolzaad, ma\u00efs, in wisselende hoeveelheden), paprikasmaak [suiker, zout, paprikapoeder, uienpoeder, knoflookpoeder, aroma's, gerookte zoete paprikapoeder, fructose, kleurstof (paprika-extract), cayennepeper, voedingszuur (citroenzuur)]."
+                }
+            ]
+        }
+    ],
+    "ProductBarcodes": [
+        {
+            "Barcode": "8710398525918"
+        }
+    ],
+    "Tax": {
+        "TaxID": 1,
+        "Description": "9%",
+        "Percentage": 9.0
+    },
+    "BrandInfo": {
+        "BrandID": 144,
+        "Description": "Lay's"
+    },
+    "ProductPictures": [
+        {
+            "Url": "https://d3r3h30p75xj6a.cloudfront.net/artikelen/182905_1_442161_638439543455544832.png",
+            "IsPrimary": true
+        }
+    ],
+    "ProductPrices": [
+        {
+            "PriceID": 1044431267,
+            "StoreID": 283,
+            "ProductID": 81210,
+            "Price": 2.07,
+            "RegularPrice": 2.07,
+            "PricePerKilo": null,
+            "PricePerDefaultUnit": 10.35,
+            "DefaultUnit": "1 KG",
+            "IsActionPrice": false,
+            "TaxID": 1,
+            "StartDate": "2024-10-08T00:00:00",
+            "EndDate": "2049-12-31T23:59:59",
+            "PriceLineCode": 100
+        }
+    ],
+    "Logos": [],
+    "WebSubGroups": [
+        {
+            "WebSubGroupID": 898,
+            "Position": 22,
+            "Description": "Paprika chips",
+            "WebGroup": {
+                "WebGroupID": 150,
+                "Position": 1,
+                "Description": "Chips",
+                "WebDepartment": {
+                    "WebDepartmentID": 18,
+                    "Position": 18,
+                    "Description": "Snacks & snoep"
+                }
+            }
+        }
+    ],
+    "Nutrition": [
+        {
+            "MainValue": {
+                "NutritionID": 1,
+                "Description": "kJ",
+                "Text": "Energie Kilojoules (kJ)",
+                "ReferenceIntake": null,
+                "ValueAsSold": "2084",
+                "ValueAsPortion": null,
+                "ValueWhenPrepared": null
+            },
+            "SubValues": []
+        },
+        {
+            "MainValue": {
+                "NutritionID": 2,
+                "Description": "kcal",
+                "Text": "Energie Kilocalorie\u00ebn (kcal)",
+                "ReferenceIntake": null,
+                "ValueAsSold": "499",
+                "ValueAsPortion": null,
+                "ValueWhenPrepared": null
+            },
+            "SubValues": []
+        },
+        {
+            "MainValue": {
+                "NutritionID": 3,
+                "Description": "Vet",
+                "Text": "Vetten (g)",
+                "ReferenceIntake": null,
+                "ValueAsSold": "27",
+                "ValueAsPortion": null,
+                "ValueWhenPrepared": null
+            },
+            "SubValues": [
+                {
+                    "NutritionID": 4,
+                    "Description": "V.Vet",
+                    "Text": "verzadigde vetzuren (g)",
+                    "ReferenceIntake": null,
+                    "ValueAsSold": "2.8",
+                    "ValueAsPortion": null,
+                    "ValueWhenPrepared": null
+                }
+            ]
+        },
+        {
+            "MainValue": {
+                "NutritionID": 18,
+                "Description": "Kh",
+                "Text": "Koolhydraten (g)",
+                "ReferenceIntake": null,
+                "ValueAsSold": "55",
+                "ValueAsPortion": null,
+                "ValueWhenPrepared": null
+            },
+            "SubValues": [
+                {
+                    "NutritionID": 19,
+                    "Description": "S",
+                    "Text": "suikers (g)",
+                    "ReferenceIntake": null,
+                    "ValueAsSold": "2.0",
+                    "ValueAsPortion": null,
+                    "ValueWhenPrepared": null
+                },
+                {
+                    "NutritionID": 23,
+                    "Description": "VV",
+                    "Text": "Voedingsvezel (g)",
+                    "ReferenceIntake": null,
+                    "ValueAsSold": "3.5",
+                    "ValueAsPortion": null,
+                    "ValueWhenPrepared": null
+                }
+            ]
+        },
+        {
+            "MainValue": {
+                "NutritionID": 24,
+                "Description": "Ei",
+                "Text": "Eiwitten (g)",
+                "ReferenceIntake": null,
+                "ValueAsSold": "6.2",
+                "ValueAsPortion": null,
+                "ValueWhenPrepared": null
+            },
+            "SubValues": []
+        },
+        {
+            "MainValue": {
+                "NutritionID": 26,
+                "Description": "TZ25",
+                "Text": "Zout (g)",
+                "ReferenceIntake": null,
+                "ValueAsSold": "1.3",
+                "ValueAsPortion": null,
+                "ValueWhenPrepared": null
+            },
+            "SubValues": []
+        },
+        {
+            "MainValue": {
+                "NutritionID": 83,
+                "Description": "Ei",
+                "Text": "- dierlijke eiwitten (g)",
+                "ReferenceIntake": null,
+                "ValueAsSold": "6.2",
+                "ValueAsPortion": null,
+                "ValueWhenPrepared": null
+            },
+            "SubValues": []
+        },
+        {
+            "MainValue": {
+                "NutritionID": 84,
+                "Description": "Ei",
+                "Text": "- plantaardige eiwitten (g)",
+                "ReferenceIntake": null,
+                "ValueAsSold": "6.2",
+                "ValueAsPortion": null,
+                "ValueWhenPrepared": null
+            },
+            "SubValues": []
+        }
+    ],
+    "SubGroup": {
+        "SubGroupID": 322,
+        "ExcludeFromPaas": false,
+        "Description": "FLAT CHIPS PAPRIKA",
+        "Hoofdgroepen": null
+    },
+    "IsSingleUsePlastic": false
+}

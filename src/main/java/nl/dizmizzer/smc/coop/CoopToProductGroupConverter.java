@@ -9,6 +9,12 @@ import java.util.List;
 
 @Component
 public class CoopToProductGroupConverter implements SmProductAdapter<CoopSmProduct> {
+
+    @Override
+    public Class<CoopSmProduct> getDomainType() {
+        return CoopSmProduct.class;
+    }
+
     @Override
     public SmProductGroup adapt(CoopSmProduct product) {
         return SmProductGroup.builder()

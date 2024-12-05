@@ -1,0 +1,280 @@
+{
+    "ProductID": 107868,
+    "CreatedAt": "2024-04-18T04:30:39.95",
+    "ModifiedAt": "2024-11-29T02:30:36.293",
+    "Number": "465200",
+    "MainDescription": "Ribbelchips",
+    "SubDescription": "max naturel",
+    "ExtraDescription": null,
+    "CommercialContent": "275 g",
+    "CommodityLawName": "Geribbelde gezouten aardappelchips",
+    "MinimumAge": 1,
+    "AlcoholPercentage": null,
+    "Durability": 0,
+    "ScaleIndicator": false,
+    "WeightArticle": false,
+    "DepositMoney": null,
+    "TaxID": 1,
+    "OwnBrand": false,
+    "TemporaryNotAvailable": false,
+    "ProductOnline": true,
+    "ContentCE": 275.0,
+    "CodeContentCE": 180,
+    "UnitContentCE": "GR",
+    "PiecesInWeight": null,
+    "WeightOfPeicesInWeight": null,
+    "Biological": false,
+    "MinTemperature": null,
+    "MaxTemperature": null,
+    "FromPersons": null,
+    "ToPersons": null,
+    "Brand": "Lay's",
+    "MaxPerCustomer": null,
+    "Location": null,
+    "PublicationAfter": null,
+    "ProductOffers": [],
+    "ProductDeclarations": [
+        {
+            "ContactInformation": {
+                "ContactGegevens": {
+                    "ContactNaam": "PepsiCo Nederland BV",
+                    "ContactAdres": "Stadsplateau 22-23, 3521 AZ Utrecht, the Netherlands",
+                    "ContactKanalen": {
+                        "ContactKanaal": {
+                            "Communicatie-kanaal-gegevens": "0800-7377426",
+                            "Communicatie-kanaal": "TELEPHONE"
+                        }
+                    }
+                }
+            },
+            "NutritionInformation": {
+                "Voedingswaarden": {
+                    "Algemeen": {
+                        "Standaardeenheid": "100 GRM",
+                        "Percentage-referentie-inname-standaard": "Referentie-inname van een gemiddelde volwassene (8400kJ / 2000kcal)"
+                    }
+                }
+            },
+            "StorageConditions": {
+                "Bewaaradviezen": {
+                    "Bewaaradvies": "Koel en droog bewaren."
+                }
+            },
+            "PreparationInstructions": null,
+            "ServingSugestions": null,
+            "ExplicitNotations": {
+                "Verplichte-vermeldingen": {
+                    "Verplichte-vermelding": {
+                        "Verplichte-vermelding-omschrijving": "Vermelding",
+                        "Verplichte-vermelding-tekst": "Verpakt onder beschermende atmosfeer.",
+                        "Verplichte-vermelding-volgnr": "1",
+                        "Verplichte-vermelding-code": "0",
+                        "Verplichte-vermelding-id": "1"
+                    }
+                }
+            },
+            "Claims": {
+                "Claims": {
+                    "Claim-marketing": "Lay's MAX\u00ae de onweerstaanbare geribbelde chips. Krachtige smaak en mega kraak. Voor de ultieme smaaksensatie!"
+                }
+            },
+            "LandOfOrigin": null,
+            "UsageAdvice": null,
+            "ProductAllergens": [],
+            "ProductIngredients": [
+                {
+                    "Text": "Ingredi\u00ebnten: aardappelen, plantaardige oli\u00ebn (zonnebloem, koolzaad, ma\u00efs, in wisselende hoeveelheden), zout."
+                }
+            ]
+        }
+    ],
+    "ProductBarcodes": [
+        {
+            "Barcode": "8710398529848"
+        }
+    ],
+    "Tax": {
+        "TaxID": 1,
+        "Description": "9%",
+        "Percentage": 9.0
+    },
+    "BrandInfo": {
+        "BrandID": 144,
+        "Description": "Lay's"
+    },
+    "ProductPictures": [
+        {
+            "Url": "https://d3r3h30p75xj6a.cloudfront.net/artikelen/185159_1_465200_638490309675780500.png",
+            "IsPrimary": true
+        }
+    ],
+    "ProductPrices": [
+        {
+            "PriceID": 1071834626,
+            "StoreID": 283,
+            "ProductID": 107868,
+            "Price": 2.89,
+            "RegularPrice": 2.89,
+            "PricePerKilo": null,
+            "PricePerDefaultUnit": 10.51,
+            "DefaultUnit": "1 KG",
+            "IsActionPrice": false,
+            "TaxID": 1,
+            "StartDate": "2024-12-02T00:00:00",
+            "EndDate": "2049-12-31T23:59:59",
+            "PriceLineCode": 100
+        }
+    ],
+    "Logos": [],
+    "WebSubGroups": [
+        {
+            "WebSubGroupID": 899,
+            "Position": 26,
+            "Description": "Overige chips",
+            "WebGroup": {
+                "WebGroupID": 150,
+                "Position": 1,
+                "Description": "Chips",
+                "WebDepartment": {
+                    "WebDepartmentID": 18,
+                    "Position": 18,
+                    "Description": "Snacks & snoep"
+                }
+            }
+        }
+    ],
+    "Nutrition": [
+        {
+            "MainValue": {
+                "NutritionID": 1,
+                "Description": "kJ",
+                "Text": "Energie Kilojoules (kJ)",
+                "ReferenceIntake": null,
+                "ValueAsSold": "2184",
+                "ValueAsPortion": null,
+                "ValueWhenPrepared": null
+            },
+            "SubValues": []
+        },
+        {
+            "MainValue": {
+                "NutritionID": 2,
+                "Description": "kcal",
+                "Text": "Energie Kilocalorie\u00ebn (kcal)",
+                "ReferenceIntake": null,
+                "ValueAsSold": "524",
+                "ValueAsPortion": null,
+                "ValueWhenPrepared": null
+            },
+            "SubValues": []
+        },
+        {
+            "MainValue": {
+                "NutritionID": 3,
+                "Description": "Vet",
+                "Text": "Vetten (g)",
+                "ReferenceIntake": null,
+                "ValueAsSold": "33",
+                "ValueAsPortion": null,
+                "ValueWhenPrepared": null
+            },
+            "SubValues": [
+                {
+                    "NutritionID": 4,
+                    "Description": "V.Vet",
+                    "Text": "verzadigde vetzuren (g)",
+                    "ReferenceIntake": null,
+                    "ValueAsSold": "3.3",
+                    "ValueAsPortion": null,
+                    "ValueWhenPrepared": null
+                }
+            ]
+        },
+        {
+            "MainValue": {
+                "NutritionID": 18,
+                "Description": "Kh",
+                "Text": "Koolhydraten (g)",
+                "ReferenceIntake": null,
+                "ValueAsSold": "48",
+                "ValueAsPortion": null,
+                "ValueWhenPrepared": null
+            },
+            "SubValues": [
+                {
+                    "NutritionID": 19,
+                    "Description": "S",
+                    "Text": "suikers (g)",
+                    "ReferenceIntake": null,
+                    "ValueAsSold": "0.5",
+                    "ValueAsPortion": null,
+                    "ValueWhenPrepared": null
+                },
+                {
+                    "NutritionID": 23,
+                    "Description": "VV",
+                    "Text": "Voedingsvezel (g)",
+                    "ReferenceIntake": null,
+                    "ValueAsSold": "4.7",
+                    "ValueAsPortion": null,
+                    "ValueWhenPrepared": null
+                }
+            ]
+        },
+        {
+            "MainValue": {
+                "NutritionID": 24,
+                "Description": "Ei",
+                "Text": "Eiwitten (g)",
+                "ReferenceIntake": null,
+                "ValueAsSold": "6.7",
+                "ValueAsPortion": null,
+                "ValueWhenPrepared": null
+            },
+            "SubValues": []
+        },
+        {
+            "MainValue": {
+                "NutritionID": 26,
+                "Description": "TZ25",
+                "Text": "Zout (g)",
+                "ReferenceIntake": null,
+                "ValueAsSold": "1.1",
+                "ValueAsPortion": null,
+                "ValueWhenPrepared": null
+            },
+            "SubValues": []
+        },
+        {
+            "MainValue": {
+                "NutritionID": 83,
+                "Description": "Ei",
+                "Text": "- dierlijke eiwitten (g)",
+                "ReferenceIntake": null,
+                "ValueAsSold": "6.7",
+                "ValueAsPortion": null,
+                "ValueWhenPrepared": null
+            },
+            "SubValues": []
+        },
+        {
+            "MainValue": {
+                "NutritionID": 84,
+                "Description": "Ei",
+                "Text": "- plantaardige eiwitten (g)",
+                "ReferenceIntake": null,
+                "ValueAsSold": "6.7",
+                "ValueAsPortion": null,
+                "ValueWhenPrepared": null
+            },
+            "SubValues": []
+        }
+    ],
+    "SubGroup": {
+        "SubGroupID": 325,
+        "ExcludeFromPaas": false,
+        "Description": "RIBBEL CHIPS",
+        "Hoofdgroepen": null
+    },
+    "IsSingleUsePlastic": false
+}
