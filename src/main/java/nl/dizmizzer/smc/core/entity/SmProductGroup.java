@@ -10,6 +10,7 @@ import java.util.List;
 @Data
 @Builder
 @Entity
+
 @AllArgsConstructor
 public class SmProductGroup {
 
@@ -36,6 +37,11 @@ public class SmProductGroup {
      * - 1 item (e.g. 3 box of detergent -> 3 units)
      */
     private double unitSize;
+
+    /**
+     * To implement with Elasticsearch query, we implement the raw info to improve searching for 215gr for example.
+     */
+    private String rawunitInfo;
 
     @OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
     private List<SmProduct> products;

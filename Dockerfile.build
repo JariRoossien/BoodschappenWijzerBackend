@@ -1,0 +1,32 @@
+# Use a base image with JDK 17 (or the version your app uses)
+FROM eclipse-temurin:19.0.2_7-jdk as builder
+
+
+# Set the working directory inside the container
+WORKDIR /app
+
+# Copy Gradle build files
+COPY gradlew build.gradle settings.gradle /app/
+COPY gradle /app/gradle/
+
+# Copy source code
+COPY src /app/src
+
+# Build the application
+RUN ./gradlew bootJar --no-daemon
+
+# Use a minimal JRE image for running the app
+FROM  eclipse-temurin:19.0.2_7-jre
+
+# Set the working directory inside the container
+WORKDIR /app
+
+# Copy the Spring Boot jar from the builder stage
+COPY --from=builder /app/build/libs/*.jar app.jar
+COPY testdata /app/testdata
+
+# Expose the port the app runs on (update if different)
+EXPOSE 8080
+
+# Set the command to run the jar
+ENTRYPOINT ["java", "-jar", "app.jar"]
