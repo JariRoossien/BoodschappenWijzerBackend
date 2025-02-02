@@ -6,6 +6,7 @@ import lombok.Builder;
 import lombok.Data;
 
 import java.util.List;
+import java.util.Objects;
 
 @Data
 @Builder
@@ -58,5 +59,18 @@ public class SmProductGroup {
         this.unit = kg;
         this.unitSize = unitSize;
         this.products = products;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        SmProductGroup that = (SmProductGroup) o;
+        return id == that.id && Objects.equals(brand, that.brand) && Objects.equals(name, that.name) && Objects.equals(gtins, that.gtins) && Objects.equals(rawunitInfo, that.rawunitInfo);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, brand, name, gtins, rawunitInfo);
     }
 }
