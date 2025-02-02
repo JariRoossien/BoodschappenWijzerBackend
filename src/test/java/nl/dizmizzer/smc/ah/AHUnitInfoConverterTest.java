@@ -1,6 +1,7 @@
 package nl.dizmizzer.smc.ah;
 
-import nl.dizmizzer.smc.ah.entity.AHSmProduct;
+import nl.dizmizzer.smc.scraper.ah.AHUnitInfoConverter;
+import nl.dizmizzer.smc.scraper.ah.entity.AHSmProduct;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -34,7 +35,4 @@ class AHUnitInfoConverterTest {
         assertEquals("g", AHUnitInfoConverter.getUnitType(product));
     }
 
-    @Test
-    void getUnitType() {
-    }
 }

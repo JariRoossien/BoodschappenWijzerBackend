@@ -1,8 +1,10 @@
 package nl.dizmizzer.smc.core.controller;
 
 import nl.dizmizzer.smc.core.entity.SmProductGroup;
-import nl.dizmizzer.smc.core.service.SmProductGroupService;
+import nl.dizmizzer.smc.scraper.base.SmProductGroupService;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -18,13 +20,17 @@ public class SmProductController {
     }
 
     @GetMapping("/products")
-    public List<SmProductGroup> retrieveAllEntries(@RequestParam(name = "query", required = false) String query) {
-        if (query == null) {
-            return this.groupService.getProducts();
-        }
-
-        return this.groupService.getProductsFiltered(query);
+    public List<SmProductGroup> retrieveAllEntries() {
+        return this.groupService.getProducts();
     }
 
+    @GetMapping("/products/{id}")
+    public ResponseEntity<SmProductGroup> retrieveEntry(@PathVariable(name = "id") final int id) {
+        SmProductGroup group = this.groupService.getProductById(id);
+        if (group == null) {
+            return ResponseEntity.notFound().build();
+        }
+        return ResponseEntity.ok(group);
+    }
 
 }
